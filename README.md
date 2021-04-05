@@ -14,3 +14,11 @@ Remove Student.html
 Remove Message.html
 ![image](https://user-images.githubusercontent.com/59272263/113599129-cf5b7580-965b-11eb-819f-a8faefda9883.png)
 
+
+Table Name : teacher
+![image](https://user-images.githubusercontent.com/59272263/113599270-fd40ba00-965b-11eb-9dc9-5038eb20b708.png)
+
+Table Name : student1
+![image](https://user-images.githubusercontent.com/59272263/113599319-1184b700-965c-11eb-9ebc-125b32d8a1af.png)
+
+
