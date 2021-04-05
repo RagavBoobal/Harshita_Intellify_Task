@@ -1,0 +1,36 @@
+<html>
+    <style>
+        body{
+            color:white;
+            background: rgb(61, 27, 61); 
+            font-family: sans-serif;
+            font-weight: normal;
+        }
+        input{
+            width:10%;
+            padding:12px 20px;
+            margin:8px 0;
+            display:inline-block;
+            border:1px solid #ccc;
+            border-radius:4px;
+            box-sizing:border-box;
+        }
+    </style>
+    <body><b>
+        <form method="post" action="Teacher.html" >
+            <input type="submit" value="Back"/>
+        </form>
+        <br /><br />
+	    <center>
+	    <form method="post" action="Update Student.php" >
+		    STUDENT ID &nbsp;&nbsp;=&nbsp;&nbsp; <input type="text" name="S_ID" required/><br/><br/><br/>	
+		    TEACHER ID &nbsp;&nbsp;=&nbsp;&nbsp; <input type="text" name="T_ID" required/><br/><br/><br/>	
+		    STUDENT NAME &nbsp;&nbsp;=&nbsp;&nbsp; <input type="text" name="S_NAME" required/><br/><br/><br/>		
+		    STUDENT PHONE.NO &nbsp;&nbsp;=&nbsp;&nbsp; <input type="number" name="S_CONTACT" required/><br/><br/><br/>
+            SCHOOL NAME &nbsp;&nbsp;=&nbsp;&nbsp; <input type="text" name="School" required/><br/><br/><br/>		
+            <input type="submit" value="Update"/>&nbsp;
+            <input type="reset" value="Reset"/>
+	    </form>
+        </b></center>
+    </body>
+</html>
