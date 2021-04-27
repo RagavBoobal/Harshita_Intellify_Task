@@ -5,7 +5,7 @@ $password="";
 $connect=mysqli_connect($host,$user,$password,"intellify");
 if(!($connect))
 {
- echo '<script type = "text/javascript">window.alert("YOU ARE NOT CONNECTED TO DB.. PLS!! TRY AGAIN");</script>';
+ echo '<script type = "text/javascript">window.alert("SUCCESSFULLY STUDENT RECORD INSERTED");</script>';
 include 'Create Student.html';
 }
 $S_ID=$_POST['S_ID'];
